@@ -1,0 +1,51 @@
+id,subject,body,category,urgency,sentiment,thread,gold_reply_needed,notes_for_eval
+1,Issue with my latest invoice,"Hi, I just received my invoice for October and it seems higher than usual. Can you please explain why I was charged an extra £25 this month? I haven’t changed my plan or used any additional services as far as I know.",billing,normal,calm,single,yes,Simple billing question
+2,Requesting copy of last month’s invoice,"Hello, Could you send me a copy of my September invoice? I need it for my records and I can’t find it in my account.",billing,low,neutral,single,no,Document request
+3,Why is my bill different this month?,"Hi team, My bill this month is higher and I don’t understand why. I haven’t used additional services. Can someone review my account?",billing,normal,confused,single,yes,Bill difference
+4,Sudden increase in subscription fee,"Hello, My subscription fee increased without warning. This is frustrating. Please check and fix quickly.",billing,high,frustrated,single,yes,High-urgency billing issue
+5,Clarification needed on usage charges,"Hi, Can you explain the usage charges on my latest bill? The numbers look different from previous months.",billing,normal,calm,single,no,Usage clarification
+6,VAT information missing,"Hi team, My invoice doesn’t show VAT. Can you reissue it with VAT included?",billing,low,neutral,single,no,VAT missing
+7,Duplicate invoice received,"Hello, I received two identical invoices. Do I need to pay both or is it an error?",billing,normal,confused,single,yes,Duplicate invoice
+8,Incorrect overcharge on my account,"Hi, You charged me £48 extra. This is unacceptable. Fix this immediately.",billing,high,angry,single,yes,Serious overcharge
+9,Need help updating billing address,"Hi team, I moved recently and need to update my billing address. Please guide me.",billing,low,calm,single,no,Billing address update
+10,Payment failed notification,"Hello, I received payment failed notification but my bank shows no issue. Can you check?",billing,normal,neutral,single,yes,Payment failure investigation
+11,App freezes when uploading files,"Hi, The app freezes every time I upload a file. I need this fixed urgently.",technical_issue,high,frustrated,single,yes,Upload freeze
+12,Notifications not working,"Hello, I’m not receiving any notifications. Settings look fine. What should I try?",technical_issue,normal,neutral,single,yes,Notification issue
+13,Can’t access my account at all,"Hi support, I’m locked out of my account and get “Access denied.” Fix immediately.",technical_issue,high,angry,single,yes,Account lockout
+14,Strange error message,"Hi, I get an error “Module not found: 0x35.” What does this mean?",technical_issue,normal,confused,single,yes,Unknown error message
+15,Can’t change profile picture,"Hello, Uploading a new profile picture does nothing. Not urgent.",technical_issue,low,calm,single,no,Profile picture issue
+16,System keeps logging me out,"Hi team, The system logs me out every few minutes. Please help.",technical_issue,high,frustrated,single,yes,Session logout issue
+17,Wi-Fi not recognized by the app,"Hi, The app doesn’t recognize my Wi-Fi but the phone works fine.",technical_issue,normal,neutral,single,yes,Wi-Fi issue
+18,Video calls not loading,"Hello, Video calls won’t load and sometimes drop immediately. Fix ASAP.",technical_issue,high,frustrated,single,yes,Video call failure
+19,Slow performance after update,"Hi team, The app is slower after the latest update. Is this known?",technical_issue,normal,calm,single,yes,Performance issue
+20,Dark mode won’t turn off,"Hello, Dark mode is stuck and won’t turn off. How do I reset it?",technical_issue,low,neutral,single,no,UI reset-related
+21,Critical bug in dashboard,"Hi, My dashboard is broken and reports don’t load. Fix today.",technical_issue,high,angry,single,yes,Dashboard failure
+22,Audio not working during calls,"Hi, I can hear others but they can’t hear me. My mic works in other apps.",technical_issue,normal,confused,single,yes,Audio input issue
+23,Requesting a refund for damaged item,"Hi, My order arrived damaged. I want a refund and instructions to return.",refund,normal,calm,single,yes,Refund damaged item
+24,Wrong size received,"Hello, I ordered medium but received large. Refund or exchange?",refund,low,neutral,single,yes,Wrong size
+25,My refund hasn’t been processed,"Hi team, I requested a refund last week but nothing yet. How long does it take?",refund,normal,confused,single,yes,Refund delay
+26,Refund still missing,"Hello, You confirmed my refund 5 days ago but I haven’t received it. Check delay.",refund,high,frustrated,single,yes,Refund delay urgent
+27,Refund for digital purchase,"Hi, I bought the wrong digital item. Can digital purchases be refunded?",refund,low,calm,single,no,Digital refund policy
+28,Refund for cancelled subscription,"Hi support, I cancelled my subscription. Am I eligible for refund for unused time?",refund,normal,neutral,single,yes,Subscription refund
+29,Still no refund — unacceptable,"Hi, It’s been over two weeks and still no refund. Fix immediately.",refund,high,angry,single,yes,Escalated refund issue
+30,Incorrect item received,"Hi, I received the wrong product and prefer a refund. How do I return it?",refund,normal,calm,single,yes,Wrong item refund
+31,Very disappointed with your service,"Hi, I am disappointed with your service. This is not acceptable.",complaint,high,angry,reply,yes,Escalated complaint
+32,Issue unresolved after several days,"Hello, I reported a problem 3 days ago and nothing changed. Please update me.",complaint,normal,frustrated,reply,yes,Unresolved issue
+33,Unhelpful previous response,"Hi, The reply I received was generic and didn’t help. Review my issue.",complaint,low,neutral,reply,yes,Bad support response
+34,Account closed without explanation,"Hello, My account was closed without explanation. Fix immediately.",complaint,high,angry,single,yes,Account closure
+35,Incorrect information by support,"Hi team, I was given wrong information and it caused issues. Please review.",complaint,normal,frustrated,single,yes,Wrong info complaint
+36,Slow response time,"Hi, It took days to get a reply. Please respond faster next time.",complaint,low,calm,reply,no,Slow response feedback
+37,Waiting for support for a week,"Hello, It’s been a week with no answer. Poor service. Fix now.",complaint,high,angry,reply,yes,Long wait complaint
+38,Confusing instructions,"Hi, Instructions I received were confusing and didn’t work. Need clear steps.",complaint,normal,confused,reply,yes,Confusing instructions
+39,Request to reopen ticket,"Hello, My previous ticket was closed but issue not solved. Reopen please.",complaint,normal,neutral,reply,yes,Reopen ticket
+40,Issue not fixed after multiple emails,"Hi, Fourth email about same issue. Nothing fixed. Needs urgent attention.",complaint,high,frustrated,reply,yes,Multiple follow-ups
+41,How do I change my account email?,"Hi team, How can I update the email on my account?",general_inquiry,low,calm,single,no,Account settings question
+42,Information about plan features,"Hello, What are the differences between Standard and Pro plans?",general_inquiry,normal,neutral,single,no,Plan comparison
+43,Adding a new user,"Hi, How do I add a new user to my team account?",general_inquiry,low,happy,single,no,Team management question
+44,Request for API documentation,"Hello, Do you have a link to your API documentation?",general_inquiry,normal,calm,single,yes,API docs request
+45,Pausing subscription,"Hi, Can I pause my subscription temporarily?",general_inquiry,low,neutral,single,no,Pause subscription
+46,Student discount inquiry,"Hello, Do you offer student pricing?",general_inquiry,normal,calm,single,no,Student discount inquiry
+47,Exporting account data,"Hi team, Is there a way to export all my account data?",general_inquiry,low,happy,single,no,Data export
+48,Integration options,"Hi, What integration options do you support for Google or Slack?",general_inquiry,normal,calm,single,yes,Integration question
+49,Updating payment method,"Hello, How do I update my payment method?",general_inquiry,low,neutral,single,no,Payment update question
+50,Security features,"Hi, Do you support two-factor authentication for login?",general_inquiry,normal,calm,single,yes,Security feature query
